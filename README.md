@@ -1,6 +1,7 @@
 # python-and-Taiwan-stock-market-Advanced
 金融市場xPython程式交易 - 進階技術補充
-[消息推送](https://github.com/arleigh418/python-and-Taiwan-stock-market-Advanced/## 相關技術補充區)
+
+[消息推送](https://github.com/arleigh418/python-and-Taiwan-stock-market-Advanced/README##相關技術補充區)
 
 ## 相關技術補充區
 ### 相關技術補充區1 - 消息推送
