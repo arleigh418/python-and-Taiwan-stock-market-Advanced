@@ -5,6 +5,8 @@
 
 [backtrader-以web方式呈現買賣成果](https://github.com/arleigh418/python-and-Taiwan-stock-market-Advanced#%E7%9B%B8%E9%97%9C%E6%8A%80%E8%A1%93%E8%A3%9C%E5%85%85%E5%8D%802---%E4%BB%A5web%E5%BD%A2%E5%BC%8F%E5%B1%95%E7%8F%BE%E7%B5%90%E6%9E%9C)
 
+<br><br>
+
 ## 相關技術補充區
 ### 相關技術補充區1 - 消息推送
 關於消息推送我們是利用mail的形式，因為mail的應用比較廣，也比較正式，通常稍微大型的公司行號都比較不接受使用Line發送一些程式訊息。
