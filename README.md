@@ -3,7 +3,7 @@
 
 
 ## 相關技術補充區
-#### 相關技術補充區1 - 消息推送
+### 相關技術補充區1 - 消息推送
 關於消息推送我們是利用mail的形式，因為mail的應用比較廣，也比較正式，通常稍微大型的公司行號都比較不接受使用Line發送一些程式訊息。
 
 但如果你想用Line發送，有個非常簡單的方式，那就是Line notify。
@@ -16,10 +16,15 @@
 3. 把LINE Notify這位官方帳號邀請到你的空群組
 4. 執行1.下載下來的程式即可成功推播
 
-#### 相關技術補充區2 - 以web形式展現結果
+
+
+
+### 相關技術補充區2 - 以web形式展現結果
 在使用backtrader回測時，我常常會收到使用者要求買賣切入點不要使用圖，他們希望能夠滑鼠移過去就能看到買賣時的價格。
 
 其實是有辦法的，在書中沒有介紹主要是考量這個並不是官方支援的套件，也非一個團隊負責維護的，這類型的套件有可能過幾年作者因事務繁忙而缺乏維護失效，不過目前作者還是有在維護的，因此可以使用沒問題。
+
+該篇專案: https://github.com/verybadsoldier/backtrader_plotting
 
 步驟如下:
 1. 安裝套件 pip install backtrader_plotting
@@ -39,3 +44,5 @@ cerebro.adddata(data,name='2330.TW')
 b = Bokeh(style='bar', output_mode='save',filename=f'png/result_{stock}.html' ,scheme=Tradimo())
 cerebro.plot(b)
 ```
+
+完成後你就可以在指定的位置看到許多html檔案，用chrome打開來看就能達到我們要的效果，可以嘗試看看。
