@@ -42,7 +42,7 @@ from backtrader_plotting.schemes import Tradimo
 cerebro.adddata(data,name='2330.TW')
 ```
 
-4.引用Bokeh類，style=bar代表k棒圖；output_mode常用的有save(儲存)跟show(顯示)，如果是範例的儲存則要給予filename，也就是儲存位置；scheme則是樣式選擇。
+4. 引用Bokeh類，style=bar代表k棒圖；output_mode常用的有save(儲存)跟show(顯示)，如果是範例的儲存則要給予filename，也就是儲存位置；scheme則是樣式選擇。
 ```
 b = Bokeh(style='bar', output_mode='save',filename=f'png/result_{stock}.html' ,scheme=Tradimo())
 cerebro.plot(b)
