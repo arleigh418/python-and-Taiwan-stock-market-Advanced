@@ -48,5 +48,5 @@ b = Bokeh(style='bar', output_mode='save',filename=f'png/result_{stock}.html' ,s
 cerebro.plot(b)
 ```
 
-完成後你就可以在指定的位置看到許多html檔案，用chrome打開來看就能達到我們要的效果，可以嘗試看看。
+完成後你就可以在指定的位置看到html檔案，用chrome打開來看就能達到我們要的效果，可以嘗試看看。
 <br>
