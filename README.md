@@ -17,4 +17,25 @@
 4. 執行1.下載下來的程式即可成功推播
 
 #### 相關技術補充區2 - 以web形式展現結果
-因為我陸陸續續收到一些
+在使用backtrader回測時，我常常會收到使用者要求買賣切入點不要使用圖，他們希望能夠滑鼠移過去就能看到買賣時的價格。
+
+其實是有辦法的，在書中沒有介紹主要是考量這個並不是官方支援的套件，也非一個團隊負責維護的，這類型的套件有可能過幾年作者因事務繁忙而缺乏維護失效，不過目前作者還是有在維護的，因此可以使用沒問題。
+
+步驟如下:
+1. 安裝套件 pip install backtrader_plotting
+2. import套件
+```
+from backtrader_plotting import Bokeh
+from backtrader_plotting.schemes import Tradimo
+```
+
+3. 在cerebo.adddata中加入name，套件畫圖需要指定資料名稱
+```
+cerebro.adddata(data,name='2330.TW')
+```
+
+4.引用Bokeh類，style=bar代表k棒圖；output_mode常用的有save(儲存)跟show(顯示)，如果是範例的儲存則要給予filename，也就是儲存位置；scheme則是樣式選擇。
+```
+b = Bokeh(style='bar', output_mode='save',filename=f'png/result_{stock}.html' ,scheme=Tradimo())
+cerebro.plot(b)
+```
