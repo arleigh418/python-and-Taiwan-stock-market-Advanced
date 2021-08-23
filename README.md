@@ -50,3 +50,8 @@ cerebro.plot(b)
 
 完成後你就可以在指定的位置看到html檔案，用chrome打開來看就能達到我們要的效果，可以嘗試看看。
 <br>
+
+
+
+data = yf.download(tickers = 'JPYAUD=X' ,period ='1d', interval = '15m')
+data
