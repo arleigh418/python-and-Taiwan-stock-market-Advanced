@@ -5,7 +5,7 @@
 
 [backtrader-以web方式呈現買賣成果](https://github.com/arleigh418/python-and-Taiwan-stock-market-Advanced#%E7%9B%B8%E9%97%9C%E6%8A%80%E8%A1%93%E8%A3%9C%E5%85%85%E5%8D%802---%E4%BB%A5web%E5%BD%A2%E5%BC%8F%E5%B1%95%E7%8F%BE%E7%B5%90%E6%9E%9C)
 
-[yfinance獲得分K資料](https://github.com/arleigh418/python-and-Taiwan-stock-market-Advanced#%E7%9B%B8%E9%97%9C%E6%8A%80%E8%A1%93%E8%A3%9C%E5%85%85%E5%8D%802---%E4%BB%A5web%E5%BD%A2%E5%BC%8F%E5%B1%95%E7%8F%BE%E7%B5%90%E6%9E%9C)
+[yfinance獲得分K資料](https://github.com/arleigh418/python-and-Taiwan-stock-market-Advanced/blob/main/README.md#%E7%9B%B8%E9%97%9C%E6%8A%80%E8%A1%93%E8%A3%9C%E5%85%85%E5%8D%803---yfinance%E7%8D%B2%E5%8F%96%E6%AF%8F%E5%88%86%E9%90%98%E8%B3%87%E6%96%99)
 
 <br>
 
