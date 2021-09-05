@@ -9,7 +9,6 @@ momo: https://m.momoshop.com.tw/goods.momo?i_code=9261467
 <br>
 
 ## 快速索引
-金融市場xPython程式交易 - 進階技術補充
 
 [LINE消息推送](https://github.com/arleigh418/python-and-Taiwan-stock-market-Advanced#%E7%9B%B8%E9%97%9C%E6%8A%80%E8%A1%93%E8%A3%9C%E5%85%85%E5%8D%801---%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81)
 
